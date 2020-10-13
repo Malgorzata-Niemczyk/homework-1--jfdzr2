@@ -168,7 +168,7 @@ button i {
 /*NAVIGATION*/
 .navbar ul {
     display: flex;
-    justify-content: left;
+    justify-content: center;
     list-style: none;
     margin: 30px;
 }
