@@ -12,6 +12,8 @@ Termin oddania prac domowych mija 2020-11-08.
 
 [Zadanie grid](grid/index.html)
 
+[Link to wykonanego zadania 1](https://malgorzata-niemczyk.github.io/jfdzr2-homework-1/grid/index.html)
+
 ## Cześć 2 - odwzorowanie strony głównej instagrama
 
 ![instagram](img/instagram.png)
