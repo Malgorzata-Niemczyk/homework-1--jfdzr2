@@ -3,3 +3,11 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.login-form h1 {
+    font-family: 'Sansita Swashed', cursive;
+}
