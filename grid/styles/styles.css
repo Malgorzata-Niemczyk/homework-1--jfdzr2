@@ -4,3 +4,44 @@
     padding: 0;
 }
 
+#container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    gap: 10px;
+    max-width: 960px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.img-one {
+background-image: url('../img/deer-2675484_1280.jpg');
+}
+
+.img-two {
+    background-image: url('../img/scotland-540119_1280.jpg');
+}
+
+.img-thee {
+    background-image: url('../img/iceland-2438618_1280.jpg');
+}
+
+.img-four {
+    background-image: url('../img/spain-86901_1280.jpg');
+}
+
+.img-five {
+    background-image: url('../img/snowdonia-4422970_1280.jpg');
+}
+
+.img-six {
+    background-image: url('../img/human-753185_1280.jpg');
+}
+
+.img-seven {
+    background-image: url('../img/island-4362121_1280.jpg');
+}
+
+.img-eight {
+    background-image: url('../img/horse-2420768_1280.jpg');
+}
