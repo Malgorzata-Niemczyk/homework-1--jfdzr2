@@ -6,44 +6,54 @@
 
 #container {
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
+    grid-template-columns: repeat(11, 1fr);
     grid-auto-rows: minmax(100px, auto);
     gap: 10px;
     max-width: 960px;
     margin: 0 auto;
-    position: relative;
+    margin-top: 20px;
+    border: 5px solid rgb(5, 9, 53);
+    background-color: antiquewhite;
 }
 
 .img-one {
 background-image: url('../img/deer-2675484_1280.jpg');
+grid-area: 1 / 1 / 3 / 6;
 }
 
 .img-two {
     background-image: url('../img/scotland-540119_1280.jpg');
+    grid-area: 3 / 1 / 5 / 6;
 }
 
 .img-three {
     background-image: url('../img/iceland-2438618_1280.jpg');
+    grid-area: 5 / 1 / 6 / 6;
 }
 
 .img-four {
     background-image: url('../img/spain-86901_1280.jpg');
+    grid-area: 1 / 6 / 4 / 9;
 }
 
 .img-five {
     background-image: url('../img/snowdonia-4422970_1280.jpg');
+    grid-area: 1 / 9 / 4 / 12;
 }
 
 .img-six {
     background-image: url('../img/human-753185_1280.jpg');
+    grid-area: 4 / 6 / 6 / 12;
 }
 
 .img-seven {
     background-image: url('../img/island-4362121_1280.jpg');
+    grid-area: 6 / 1 / 8 / 8;
 }
 
 .img-eight {
     background-image: url('../img/horse-2420768_1280.jpg');
+    grid-area: 6 / 8 / 8 / 12 ;
 }
 
 #container .img-one, #container .img-two, #container .img-three, #container .img-four, #container .img-five, #container .img-six, #container .img-seven, #container .img-eight {
