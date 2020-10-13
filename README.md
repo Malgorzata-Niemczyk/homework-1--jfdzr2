@@ -19,3 +19,5 @@ Termin oddania prac domowych mija 2020-11-08.
 ![instagram](img/instagram.png)
 
 [Zadanie instagram](instagram/index.html)
+
+[Link to wykonanego zadania 2](https://malgorzata-niemczyk.github.io/jfdzr2-homework-1/instagram/index.html)
