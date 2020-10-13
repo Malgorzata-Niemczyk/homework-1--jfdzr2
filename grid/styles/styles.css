@@ -22,7 +22,7 @@ background-image: url('../img/deer-2675484_1280.jpg');
     background-image: url('../img/scotland-540119_1280.jpg');
 }
 
-.img-thee {
+.img-three {
     background-image: url('../img/iceland-2438618_1280.jpg');
 }
 
@@ -44,4 +44,10 @@ background-image: url('../img/deer-2675484_1280.jpg');
 
 .img-eight {
     background-image: url('../img/horse-2420768_1280.jpg');
+}
+
+#container .img-one, #container .img-two, #container .img-three, #container .img-four, #container .img-five, #container .img-six, #container .img-seven, #container .img-eight {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
