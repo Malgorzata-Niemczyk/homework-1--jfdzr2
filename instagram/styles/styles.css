@@ -46,6 +46,8 @@ body {
 
 .login-form h1 {
     font-family: 'Sansita Swashed', cursive;
+    font-size: 45px;
+    font-weight: lighter;
 }
 
 form {
