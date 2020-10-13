@@ -16,6 +16,12 @@
     background-color: antiquewhite;
 }
 
+.image-item {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 .img-one {
     grid-area: 1 / 1 / 3 / 6;
 }
