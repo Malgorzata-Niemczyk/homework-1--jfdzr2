@@ -17,6 +17,7 @@ body {
     grid-template-rows: repeat(9, 5vw);
     column-gap: 25px;
     row-gap: 10px;
+    position: relative;
     max-width: 960px;
     margin: 0 auto;
     margin-top: 50px;
@@ -47,17 +48,19 @@ body {
     font-family: 'Sansita Swashed', cursive;
     font-size: 45px;
     font-weight: lighter;
+    position: absolute;
+    top: 20px;
 }
 
 form {
     display: flex;
     flex-direction: column;
-    padding: 20px;
 }
 
 input {
     margin: 5px;
-    padding: 10px;
+    padding: 15px;
+    width: 350px;
 }
 
 .login-btn {
@@ -71,9 +74,6 @@ h4 {
     text-transform: uppercase;
     color: grey;
     font-weight: lighter;
-}
-
-h4 {
     overflow: hidden;
     text-align: center;
 }
