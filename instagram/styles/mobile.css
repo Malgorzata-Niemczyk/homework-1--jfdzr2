@@ -1,4 +1,6 @@
-@media (max-width: 872px) {
+ /*max-width:768px*/
+
+@media (max-width: 768px) {
     .iphone-img {
         display: none;
     }
