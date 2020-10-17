@@ -148,7 +148,7 @@ h4:after {
     justify-content: flex-start;
 }
 
-/*NAVIGATION and FOOTER*/
+/*NAVIGATION*/
 .navbar ul, footer {
     display: flex;
     flex-wrap: wrap;
@@ -169,6 +169,11 @@ h4:after {
     text-decoration: none;
     margin-right: 20px;
     padding: 5px;
+}
+
+/*FOOTER*/
+footer {
+    margin-bottom: 45px;
 }
 
 footer p {
