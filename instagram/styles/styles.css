@@ -13,14 +13,13 @@ body {
 /*Setting elements within the #container*/
 #container {
     display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(9, 5vw);
+    grid-template-columns: repeat(8, minmax(96px, 1fr));
+    grid-template-rows: repeat(9, minmax(90px, 5vw));
     column-gap: 25px;
     row-gap: 10px;
     position: relative;
     max-width: 960px;
     margin: 0 auto;
-    margin-top: 50px;
 }
 
 .iphone-img {
