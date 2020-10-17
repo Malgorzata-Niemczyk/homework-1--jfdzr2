@@ -63,6 +63,7 @@ input {
 }
 
 .login-btn {
+    margin-top: 15px;
     background-color: rgba(40, 167, 240, 0.4);
     font-weight: bold;
     color: #fff;
