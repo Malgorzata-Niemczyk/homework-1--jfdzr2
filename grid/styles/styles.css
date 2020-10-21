@@ -6,8 +6,8 @@
 
 #container {
     display: grid;
-    grid-template-columns: repeat(11, 1fr);
-    grid-template-rows: repeat(11, 5vw);
+    grid-template-columns: repeat(autofit, minmax(96px, 1fr));
+    grid-template-rows: repeat(autofit, minmax(90px, 5vw));
     gap: 10px;
     max-width: 960px;
     margin: 0 auto;
