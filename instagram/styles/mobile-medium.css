@@ -1,11 +1,8 @@
  /*max-width:768x*/
+.iphone-img {
+    display: none;
+}
 
-@media (max-width: 768px) {
-    .iphone-img {
-        display: none;
-    }
-
-    #container {
-        right: 65%;
-    }
+#container {
+    right: 65%;
 }

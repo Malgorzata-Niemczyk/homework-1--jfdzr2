@@ -1,20 +1,17 @@
  /*max-width:576px*/
+.iphone-img {
+    display: none;
+}
 
-@media (max-width: 576px) {
-    .iphone-img {
-        display: none;
-    }
-
-    #container {
-        right: 80%;
-    }
+#container {
+    right: 80%;
+}
     
-    .login-form, .no-account-holder {
-        background-color: rgb(247, 243, 243);
-        border: none;
-    }
+.login-form, .no-account-holder {
+    background-color: rgb(247, 243, 243);
+    border: none;
+}
     
-    input {
-        background-color: rgb(247, 243, 243);
-    }
+input {
+    background-color: rgb(247, 243, 243);
 }
