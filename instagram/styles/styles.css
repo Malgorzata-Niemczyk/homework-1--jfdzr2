@@ -127,6 +127,8 @@ h4:after {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-left: 87px;
+    padding-right: 85px;
 }
 
 .no-account-holder span a {
