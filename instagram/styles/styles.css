@@ -141,18 +141,22 @@ h4:after {
 
 /*Styling buttons to enter App Store and Google Play*/
 .app-download {
-    grid-area: 7 / 5 / 8 / 9; 
-    transform: translateY(18px);
+    grid-area: 7 / 5 / 8 / 9;
+    display: flex;
+    align-items: center;
+}
+
+.buttons-wrapper {
+    grid-area: 8 / 5 / 8 / 9;
+    display: flex;
 }
 
 .app-apple {
-    grid-area: 8 / 5 / 9 / 7;
-    transform: translate(20px, -30px);
+    padding-right: 5px;
 }
 
 .app-google {
-    grid-area: 8 / 7 / 9 / 9;
-    transform: translate(-20px, -30px);
+    padding-left: 5px;
 }
 
 .app-apple a img, .app-google a img {
