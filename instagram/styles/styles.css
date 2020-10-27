@@ -141,15 +141,18 @@ h4:after {
 
 /*Styling buttons to enter App Store and Google Play*/
 .app-download {
-    grid-area: 7 / 5 / 8 / 9;  
+    grid-area: 7 / 5 / 8 / 9; 
+    transform: translateY(18px);
 }
 
 .app-apple {
     grid-area: 8 / 5 / 9 / 7;
+    transform: translate(20px, -30px);
 }
 
 .app-google {
     grid-area: 8 / 7 / 9 / 9;
+    transform: translate(-20px, -30px);
 }
 
 .app-apple a img, .app-google a img {
