@@ -39,6 +39,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 20px;
 }
 
 .login-form form {
@@ -55,7 +56,7 @@ body {
     font-size: 45px;
     font-weight: lighter;
     position: absolute;
-    top: 20px;
+    top: 55px;
 }
 
 form {
