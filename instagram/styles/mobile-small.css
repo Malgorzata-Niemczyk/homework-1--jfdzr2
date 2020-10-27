@@ -3,10 +3,6 @@
     display: none;
 }
 
-#container {
-    right: 80%;
-}
-    
 .login-form, .no-account-holder {
     background-color: rgb(247, 243, 243);
     border: none;
