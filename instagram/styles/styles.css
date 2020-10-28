@@ -26,6 +26,10 @@ body {
     height: 100%;
 }
 
+.img-item {
+    border-radius: 60px;
+}
+
 /*Styling the content that requires filling in login details or setting up an account*/
 
 .login-form, form {
