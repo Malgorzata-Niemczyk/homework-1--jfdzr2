@@ -20,13 +20,13 @@ body {
     margin-top: 50px;
 }
 
-.iphone-img, .img-item {
+.smart-phone, .smart-phone img {
     grid-area: 1 / 1 / 9 / 5;
     width: 100%;
     height: 100%;
 }
 
-.img-item {
+.smart-phone img {
     border-radius: 60px;
 }
 
@@ -169,7 +169,7 @@ h4:after {
 }
 
 .app-google a img {
-    border-radius: 5px;
+    border-radius: 8px;
 }
 
 /*NAVIGATION and FOOTEr*/
