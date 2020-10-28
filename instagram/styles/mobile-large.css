@@ -2,3 +2,9 @@
 .iphone-img {
     display: none;
 }
+
+.nav-footer-wrapper {
+    width: 450px;
+    justify-content: center;
+    transform: translateX(-10px);
+}
