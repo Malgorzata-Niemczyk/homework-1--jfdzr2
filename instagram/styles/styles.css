@@ -20,24 +20,22 @@ body {
     padding: 30px;
 }
 
-.iphone-img {
+.iphone-img, .img-item {
     grid-area: 1 / 1 / 9 / 5;
     width: 100%;
     height: 100%;
 }
 
-.img-item {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+/*Styling the content that requires filling in login details or setting up an account*/
+
+.login-form, form {
+    display: flex;
 }
 
-/*Styling the content that requires filling in login details or setting up an account*/
 .login-form {
     grid-area: 1 / 5 / 6 / 9;
     background-color: #fff;
     border: 2px solid rgb(199, 198, 198);
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -62,7 +60,6 @@ body {
 }
 
 form {
-    display: flex;
     flex-direction: column;
 }
 
@@ -140,15 +137,18 @@ h4:after {
 }
 
 /*Styling buttons to enter App Store and Google Play*/
+
+.app-download, .buttons-wrapper {
+    display: flex;
+}
+
 .app-download {
     grid-area: 7 / 5 / 8 / 9;
-    display: flex;
     align-items: center;
 }
 
 .buttons-wrapper {
     grid-area: 8 / 5 / 8 / 9;
-    display: flex;
 }
 
 .app-apple {
