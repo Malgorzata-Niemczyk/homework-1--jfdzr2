@@ -52,6 +52,7 @@ body {
 
 .login-form form input:nth-child(1), .login-form form input:nth-child(2) {
     background-color: rgb(249, 249, 249);
+    border: 2px solid rgb(199, 198, 198);
 }
 
 
@@ -79,6 +80,7 @@ input {
     font-weight: bold;
     color: #fff;
     border-radius: 8px;
+    border: none;
 }
 
 h4 {
