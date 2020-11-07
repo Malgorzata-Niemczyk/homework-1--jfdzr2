@@ -4,10 +4,10 @@
 }
 
 .login-form, .no-account-holder {
-    background-color: rgb(247, 243, 243);
+    background-color: rgb(249, 249, 249);
     border: none;
 }
     
 input {
-    background-color: rgb(247, 243, 243);
+    background-color: rgb(249, 249, 249)
 }
