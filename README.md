@@ -9,7 +9,7 @@ This is a homework activity that I completed while taking the first module on a 
 [Link to my grid](https://malgorzata-niemczyk.github.io/jfdzr2-homework-1/grid/index.html)
 
 
-## Part 2 - recreating the Layout of an Instagram Login Page
+## Part 2 - Recreating the Layout of an Instagram Login Page
 
 ![instagram](img/instagram.png)
 
