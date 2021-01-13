@@ -1,6 +1,6 @@
 # Zadanie domowe 1
 
-This is a homework activity that I completed while taking a first module on Front-end Developer course at InfoShare Academy. It consisted of two parts:
+This is a homework activity that I completed while taking the first module on a Front-end Developer course at InfoShare Academy. It consisted of two parts:
 
 ## Part 1 - Creating an Image Gallery with CSS Grid
 
